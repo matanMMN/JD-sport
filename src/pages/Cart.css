@@ -1,0 +1,291 @@
+.cart-container {
+  height: fit-content;
+  direction: rtl;
+}
+
+.item-container {
+  display: flex;
+  padding: 16px 16px 24px 24px;
+  border-bottom: 1px solid black;
+}
+.ButtonPlusMinus-container {
+  direction: rtl;
+  height: 20px;
+  width: 250px;
+  margin-top: 70px;
+  margin-right: 140px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.ButtonPlus {
+  background-color: white;
+  border: #fff;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.ButtonMinus {
+  width: auto;
+  background-color: white;
+  border: #fff;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.qty-container {
+  width: 13%;
+  text-align: center;
+  border: solid 1px #cec8c8;
+  margin-right: 15px;
+  color: red;
+  font-weight: 700;
+}
+
+.payment-container {
+  width: 30%;
+  height: 35%;
+  background-color: #ffff;
+  top: 13.6%;
+  right: 30%;
+  position: absolute;
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.payment-title {
+  direction: rtl;
+  font-size: small;
+  width: 25%;
+  margin-top: 3%;
+}
+.input-payment-text {
+  height: 7%;
+  width: 55%;
+  margin-right: 2%;
+  margin-top: 3%;
+  direction: rtl;
+}
+
+.popup-box {
+  position: absolute;
+  left: 205px;
+  top: 77px;
+  width: fit-content;
+  height: fit-content;
+  visibility: visible;
+}
+.box {
+  bottom: 20px;
+  position: relative;
+  width: 480px;
+  height: fit-content;
+  max-height: 600px;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 8px 0px 0px 8px;
+  margin: 20px auto;
+  overflow-y: scroll;
+  box-shadow: 1px 1px 1px 1.5px #e6dada;
+}
+.popup-title {
+  width: fit-content;
+  height: fit-content;
+  direction: rtl;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 24px;
+}
+.popup-div-title {
+  height: 68px;
+  width: 461px;
+}
+.btn-X {
+  position: absolute;
+  margin-top: -40px;
+  width: 18px;
+  height: 18px;
+  margin-left: 16px;
+  background-color: #ffffff;
+  border: none;
+}
+.hr-popup {
+  width: 461px;
+  background: #cccccc;
+}
+.img-popup {
+  width: 126px;
+  height: 101px;
+  direction: rtl;
+  margin-left: auto;
+}
+.subTitle-popup {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  height: fit-content;
+  width: 200px;
+  margin-right: 140px;
+  position: absolute;
+}
+.about-popup {
+  margin: auto;
+  margin-left: 11px;
+  /* background-color: #666666; */
+  width: 270px;
+  height: fit-content;
+  /* right: 34%; */
+  margin-top: 25px;
+  top: 95px;
+  color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+}
+.payment-popup {
+  direction: rtl;
+  width: 461px;
+  height: 124px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.thePrice {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  margin-right: 20px;
+  color: black;
+  margin-top: -80px;
+}
+.totalPrice-container {
+  width: 70px;
+  text-align: left;
+  height: fit-content;
+  position: absolute;
+  margin-right: 360px;
+  margin-bottom: 80px;
+  color: green;
+  font-weight: 900;
+}
+.btn-payment-popup {
+  color: #ffffff;
+  /* display: flex; */
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  height: 40px;
+  width: 100%;
+  background: #c31017;
+  border: solid #c31017;
+  border-radius: 6px;
+  order: 1;
+  flex-grow: 1;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn-payment-popup:hover {
+  color: #ffffff;
+  /* display: flex; */
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  height: 40px;
+  width: 100%;
+  background: #c31017;
+  border: solid #c31017;
+  border-radius: 6px;
+  order: 1;
+  flex-grow: 1;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn-popup-container {
+  margin-top: 40px;
+  align-items: center;
+  position: absolute;
+  width: 413px;
+  height: 40px;
+  margin-right: 20px;
+}
+.title-pyment-container {
+  height: fit-content;
+  direction: rtl;
+  font-weight: 700;
+  color: #c31017;
+  font-size: 20px;
+  width: 100%;
+  position: absolute;
+}
+.inerary-container-title {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 15px;
+  margin-right: 20px;
+  position: absolute;
+}
+
+.hr-pymnet {
+  margin-top: 50px;
+  background: #cccccc;
+}
+.totalPrice-pyment-container {
+  width: 150px;
+  margin-right: 205px;
+  margin-top: 15px;
+  position: absolute;
+  text-align: left;
+}
+.Details {
+  direction: rtl;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.card-cvc {
+  width: 50px;
+}
+
+.btn-pay {
+  color: #ffffff;
+  width: 50px;
+  width: 32%;
+  height: 32px;
+  background: #c31017;
+  border: #c31017 solid;
+  border-radius: 6px;
+  margin-left: 280px;
+  margin-top: 2px;
+}
+.btn-pay:hover {
+  background: green;
+  border: green;
+}
+
+label {
+  color: black;
+}
+#input {
+  position: absolute;
+  margin-right: 90px;
+  height: 25px;
+  margin-top: -21px;
+  width: 350px;
+  border: 1px solid grey;
+}
+#card {
+  margin-top: 10px;
+  padding-bottom: 15px;
+}

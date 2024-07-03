@@ -1,0 +1,121 @@
+.aftet-heading {
+  margin-top: 124px;
+  position: absolute;
+  width: 100%;
+  height: 227px;
+  left: 0px;
+  top: 0px;
+  background: #002e63;
+}
+.afterHeading-img {
+  width: 100%;
+}
+.tree-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  column-gap: 6rem;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  left: 10%;
+  top: 352px;
+}
+
+.title-career {
+  width: fit-content;
+  margin-right: 40px;
+}
+.icon-container {
+  background-color: black;
+  width: 300px;
+  height: 108px;
+  background: #ffffff;
+  box-shadow: 2px 1px 1px 0px rgb(192, 191, 190);
+
+  border-radius: 6px 6px 0px 0px;
+}
+
+.logo-img {
+  width: 90px;
+  padding: 7px;
+}
+.text-career-container {
+  box-shadow: 2px 1px 1px 0px rgb(192, 191, 190);
+  background: #ffffff;
+  width: 300px;
+  height: 120px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 24px 48px;
+  border-radius: 0px 0px 6px 6px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: black;
+}
+.inner-container {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: "Regular";
+  color: #666666;
+}
+.career-img {
+  position: absolute;
+  width: 547px;
+  height: 513px;
+  left: 168px;
+  top: 258px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.sendUs-container {
+  position: absolute;
+  width: 483px;
+  height: 472px;
+  right: 206px;
+  box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+  top: 255px;
+  background-color: #c31017;
+}
+.partTwo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 24px;
+  direction: rtl;
+}
+.input-text {
+  width: 403px;
+  height: 36px;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  border: solid white 0.5px;
+}
+.text-input {
+  width: 403px;
+  height: 100px;
+  border-radius: 6px;
+  font-family: "Rubik", sans-serif;
+  border: solid black 0.5px;
+}
+.title {
+  margin-right: 8%;
+}
+
+.Button-send {
+  color: #ffffff;
+  width: 50px;
+  width: 91%;
+  height: 40px;
+  background: #002e63;
+  border: #002e63 solid;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-right: 0px;
+  margin-top: 12px;
+}
+#input-text {
+  border: none;
+}

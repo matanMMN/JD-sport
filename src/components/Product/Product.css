@@ -1,0 +1,120 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 43px;
+  width: 215px;
+  height: 435px;
+  box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+  background: #ffffff;
+  border-radius: 0px 0px 40px 40px;
+  /* box-shadow: 1px 1px 1px 1.5px #e6dada; */
+  flex: none;
+  margin-left: 31px;
+  margin-bottom: 2%;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.img-container {
+  width: 100%;
+  height: 155px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.product-img {
+  width: 221px;
+  height: 173px;
+  margin-top: -8%;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 3%;
+}
+.product-container .text-container {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  height: 25px;
+  width: 184px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #710903;
+}
+.aboutp-container {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  width: 184px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #666666;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-top: -14px;
+}
+
+.price-container {
+  direction: rtl;
+  width: 184px;
+  height: 20px;
+  font-weight: 600;
+  color: #c31017;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-top: -7px;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+.button-add {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  width: 189px;
+  margin-top: -32px;
+  border-radius: 20px 20px 20px 20px;
+  height: 40px;
+  background: #002e63;
+  border: solid #002e63;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  font-family: "Rubik", sans-serif;
+}
+.button-add:hover {
+  background: #c31017;
+  border: solid #c31017;
+}
+
+.qty-circuleNoItem {
+  background-color: #fff;
+}
+
+@media (min-width: 1600px) {
+  .orders {
+    margin: 2%;
+  }
+  .all-orders {
+    background-color: #002e63;
+    margin-top: -69px;
+  }
+}

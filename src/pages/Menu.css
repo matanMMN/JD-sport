@@ -1,0 +1,113 @@
+.aftet-heading {
+  margin-top: 177px;
+  position: absolute;
+  width: 100%;
+  height: 242px;
+  left: 0px;
+  top: 0px;
+  background: #002e63;
+}
+.afterHeading-img {
+  width: 100%;
+}
+.tree-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  left: 19%;
+  top: 230px;
+}
+.title-career {
+  width: fit-content;
+  margin-right: 40px;
+}
+.icon-container {
+  background-color: black;
+  width: 300px;
+  height: 108px;
+  background: #ffffff;
+  box-shadow: 2px 1px 1px 0px rgb(192, 191, 190);
+
+  border-radius: 6px 6px 0px 0px;
+}
+
+.logo-img {
+  margin-left: 44%;
+  margin-top: 16%;
+}
+
+.text-career-container {
+  box-shadow: 2px 1px 1px 0px rgb(192, 191, 190);
+  background: #ffffff;
+  width: 300px;
+  height: 120px;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 24px 48px;
+  border-radius: 0px 0px 6px 6px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  color: black;
+}
+.inner-container {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: "Regular";
+  color: #666666;
+}
+.sport-img {
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  left: 254px;
+  top: 540px;
+}
+.sendUs-container {
+  position: absolute;
+  width: 483px;
+  height: 472px;
+  right: 206px;
+  top: 540px;
+  background-color: #fafafa;
+}
+.partTwo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 24px;
+  direction: rtl;
+}
+.input-text {
+  width: 403px;
+  height: 25px;
+  border-radius: 6px;
+  margin-bottom: 3%;
+  border: solid black 0.5px;
+}
+.text-input {
+  width: 403px;
+  height: 100px;
+  border-radius: 6px;
+  font-family: "Rubik", sans-serif;
+  border: solid black 0.5px;
+}
+.title {
+  margin-right: 8%;
+}
+
+.Button-send {
+  color: #ffffff;
+  width: 50px;
+  height: 35px;
+  background: #ed6b49;
+  border: #ed6b49 solid;
+  border-radius: 6px;
+  margin-right: 80%;
+}
+#input-text {
+  border: none;
+}
